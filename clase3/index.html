@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Curso de IA para Publicistas: aprende a usar ChatGPT y Google Ads con IA aplicada al marketing." />
+  <title>Curso de IA para Publicistas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+</head>
+<body>
+  <!-- Header / Hero -->
+  <header class="hero">
+    <nav class="nav container">
+      <a class="brand" href="#">
+        <img src="assets/logo.svg" alt="Logo IA Publicistas" width="36" height="36" />
+        <span>Pilas Pues · IA</span>
+      </a>
+      <a class="cta-small" href="#registro">Inscribirme</a>
+    </nav>
+
+    <section class="hero-content container">
+      <h1>🚀 Curso de IA para Publicistas</h1>
+      <p class="subtitle">Aprende a usar <strong>ChatGPT</strong> y <strong>Google Ads</strong> con IA aplicada al marketing</p>
+      <div class="hero-actions">
+        <a class="btn-primary" href="#registro">👉 Inscribirme</a>
+        <a class="btn-ghost" href="#temario">Ver temario</a>
+      </div>
+    </section>
+    <div class="hero-glow" aria-hidden="true"></div>
+  </header>
+
+  <!-- Beneficios -->
+  <section id="beneficios" class="container section">
+    <h2>Beneficios del curso</h2>
+    <ul class="benefits">
+      <li>
+        <span class="icon-check" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+        </span>
+        Aprende a crear campañas con Google Ads
+      </li>
+      <li>
+        <span class="icon-check" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+        </span>
+        Domina ChatGPT y herramientas de IA creativa
+      </li>
+      <li>
+        <span class="icon-check" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+        </span>
+        Proyectos reales aplicados a publicidad
+      </li>
+      <li>
+        <span class="icon-check" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+        </span>
+        Certificado al finalizar
+      </li>
+      <li>
+        <span class="icon-check" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+        </span>
+        Mentorías en vivo con expertos
+      </li>
+    </ul>
+  </section>
+
+  <!-- Temario -->
+  <section id="temario" class="container section">
+    <h2>Temario</h2>
+    <div class="syllabus">
+      <article class="card">
+        <h3>1. Fundamentos de IA aplicada</h3>
+        <p>Qué es IA generativa, casos de uso en publicidad y ética.</p>
+      </article>
+      <article class="card">
+        <h3>2. ChatGPT para creativos</h3>
+        <p>Prompts para copies, ideas de campañas, segmentación y A/B testing.</p>
+      </article>
+      <article class="card">
+        <h3>3. Google Ads con IA</h3>
+        <p>Estructuras, palabras clave, anuncios responsivos y automatizaciones.</p>
+      </article>
+      <article class="card">
+        <h3>4. Flujos y herramientas</h3>
+        <p>Herramientas de diseño asistido por IA, workflows y buenas prácticas.</p>
+      </article>
+      <article class="card">
+        <h3>5. Proyecto final</h3>
+        <p>Brief real, plan de medios, anuncio, landing y métricas.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Formulario -->
+  <section id="registro" class="container section">
+    <h2>Regístrate</h2>
+    <form id="lead-form" action="https://formspree.io/f/mjvddnqq" method="POST" class="form">
+      <div class="form-field">
+        <label for="nombre">Nombre</label>
+        <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" required />
+      </div>
+      <div class="form-field">
+        <label for="email">Correo electrónico</label>
+        <input id="email" name="email" type="email" placeholder="tu@correo.com" required />
+      </div>
+      <button class="btn-primary btn-animated" type="submit">👉 Inscribirme</button>
+      <p id="form-status" role="status" class="status" aria-live="polite"></p>
+    </form>
+  </section>
+
+  <footer class="footer container">
+    <p>© <span id="year"></span> Curso de IA para Publicistas — Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
